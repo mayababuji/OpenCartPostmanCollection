@@ -48,8 +48,9 @@ npm install -g newman
 
 
 ### Steps to Prepare the Environment
-
-1. **Start XAMPP**
+1. **Opencart initial installation**
+   https://github.com/opencart/opencart/blob/master/INSTALL.md
+2. **Start XAMPP**
    Open XAMPP Control Panel and start **Apache** and **MySQL** services.
    <img width="636" height="469" alt="image" src="https://github.com/user-attachments/assets/785dc0dd-a7a8-4662-bd8f-4f1c99a6712c" />
 
