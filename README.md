@@ -19,7 +19,7 @@ This project contains a Postman collection to test the Shopping Cart [OpenCart A
 3. **Get Cart Content (GET)**  
    Retrieve current cart items, vouchers, and totals.
 
-4. **Update Cart (PUT/PATCH)**  
+4. **Update Cart (POST)**  
    Modify product quantities or other cart details.
 
 5. **Delete Cart (DELETE)**  
