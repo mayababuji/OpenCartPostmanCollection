@@ -29,7 +29,6 @@ This project contains a Postman collection to test the Shopping Cart [OpenCart A
 
 ## Project Files
 
-- `Opencart API.postman_collection.json` — Postman collection with all API requests and tests.
 - `Opencart API.postman_environment.json` — Postman environment file for variables like base URL and token.
 
 
@@ -47,20 +46,25 @@ This project contains a Postman collection to test the Shopping Cart [OpenCart A
 npm install -g newman
 ````
 
+
 ### Steps to Prepare the Environment
 
 1. **Start XAMPP**
    Open XAMPP Control Panel and start **Apache** and **MySQL** services.
+   <img width="636" height="469" alt="image" src="https://github.com/user-attachments/assets/785dc0dd-a7a8-4662-bd8f-4f1c99a6712c" />
 
-2. **Create Database**
+
+3. **Create Database**
 
    * Navigate to `http://localhost/phpmyadmin` in your browser.
    * Create a new database for your application.
+   * <img width="1323" height="497" alt="image" src="https://github.com/user-attachments/assets/3d61ae81-312f-43b4-8d44-d5fdbc579f6c" />
 
-3. **Create API Requests**
+
+4. **Create API Requests**
    Build and test your API requests in Postman.
 
-4. **Export Postman Collection**
+5. **Export Postman Collection**
    Export your Postman collection JSON file to your local machine.
 
 ### Steps to Run Tests Locally
