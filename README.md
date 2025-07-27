@@ -122,6 +122,8 @@ cp newman/newman-report.html reports/
 
 * Set the report directory to `reports`
 * Set the index page to `newman-report.html`
+* <img width="716" height="419" alt="image" src="https://github.com/user-attachments/assets/26b742c5-7c81-4047-ace3-cd06a4ef72a1" />
+
 
   <img width="741" height="708" alt="image" src="https://github.com/user-attachments/assets/12f0a8bf-8561-4fc4-ab91-17ae0370173a" />
 
