@@ -96,26 +96,23 @@ newman run "Opencart API.postman_collection.json" -r html
 2. In Jenkins, create or configure a job with a shell execution step containing the following script:
 
 ```bash
-# Ensure Node and Newman binaries are in PATH
+
+# Ensure correct PATH
 export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
 
-# Verify Node and Newman installations
+# Verify Node and Newman installation
 node --version
 newman --version
 
-# Prepare directories for reports
+# Prepare directories
 mkdir -p newman
 chmod -R 755 newman
 
-# Run Newman with CLI, HTML, and HTMLExtra reports
-newman run "/Users/maya/.jenkins/workspace/OpencartPostmanCollection/Opencart API.postman_collection.json" \
+# Run Newman collection
+newman run "Opencart API.postman_collection.json" \
   --reporters cli,html,htmlextra \
   --reporter-html-export newman/newman-report.html \
   --color off
-
-# Move the report to Jenkins reports folder for publishing
-mkdir -p reports
-cp newman/newman-report.html reports/
 ```
 
 3. Use Jenkins **HTML Publisher Plugin** to publish the HTML report:
